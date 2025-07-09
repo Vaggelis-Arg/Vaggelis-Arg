@@ -1,5 +1,8 @@
 name: Generate GitHub Stats
 
+permissions:
+  contents: write
+
 on:
   schedule:
     - cron: '0 0 * * *'
@@ -8,19 +11,18 @@ on:
 jobs:
   generate-stats:
     runs-on: ubuntu-latest
-
     steps:
-    - name: Checkout repository
-      uses: actions/checkout@v4
+      - name: Checkout repository
+        uses: actions/checkout@v4
 
-    - name: Generate user statistics SVG
-      uses: cicirello/user-statistician@v1
-      with:
-        image-file: stats.svg
-        colors: dark-dimmed
-        custom-title: "My GitHub Statistics"
-        hide-keys: joined,mostStarred,mostForked,followers,following,private
-        max-languages: 10
-        animated-language-chart: true
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Generate user statistics SVG
+        uses: cicirello/user-statistician@v1
+        with:
+          image-file: stats.svg
+          colors: dark-dimmed
+          custom-title: "My GitHub Statistics"
+          hide-keys: joined,mostStarred,mostForked,followers,following,private
+          max-languages: 10
+          animated-language-chart: true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
