@@ -1,4 +1,4 @@
-# 👋 Hi, I'm Vaggelis Arg
+# 👋 Hi, I'm Vaggelis Argyropoulos
 
 I’m a computer scientist and student from Athens interested in how technology connects with business and affects everyday life.  
 🌐 [Visit my website](https://vaggelis-arg.github.io/)
@@ -21,9 +21,8 @@ I’m a computer scientist and student from Athens interested in how technology 
 
 ## 📫 Connect With Me
 
-- 🔗 [Website](https://vaggelis-arg.github.io/)  
-- 🔗 [LinkedIn](https://www.linkedin.com/in/vaggelis-argyropoulos)  
-- 🐙 [GitHub](https://github.com/Vaggelis-Arg)  
+- 🔗 [Website](https://vaggelis-arg.github.io/)
+- 🔗 [LinkedIn](https://www.linkedin.com/in/vaggelis-argyropoulos)
 
 
 📝 Check more of my work on my [GitHub Gists page](https://gist.github.com/Vaggelis-Arg)
