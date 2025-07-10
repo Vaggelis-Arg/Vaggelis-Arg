@@ -1,7 +1,6 @@
 # 👋 Hi, I'm Vaggelis Argyropoulos
 
-I’m a computer scientist and student from Athens interested in how technology connects with business and affects everyday life.  
-🌐 [Visit my website](https://vaggelis-arg.github.io/)
+I’m a computer scientist and student from Athens interested in how technology affects everyday life.
 
 ---
 
